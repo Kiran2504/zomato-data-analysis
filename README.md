@@ -1,40 +1,65 @@
 # zomato-data-analysis
 Exploratory Data Analysis of Zomato dataset
 
-## Project Objective
+# 🍽️ Zomato Data Analysis Project
 
-The objective of this project is to perform an in-depth analysis of Zomato restaurant data to uncover patterns in customer behavior, restaurant performance, and market trends. This analysis aims to provide actionable insights that can help Zomato and restaurant owners make data-driven decisions.
+This project performs an in-depth analysis of Zomato restaurant data to uncover patterns in customer behavior, restaurant performance, and market trends. The goal is to extract actionable insights that can help Zomato and restaurant owners make informed, data-driven decisions.
 
-## Data Overview
+## 📌 Project Objective
 
-The dataset used in this analysis contains information on various restaurants listed on Zomato. Key variables include:
-- **Restaurant Name**: Name of the restaurant.
-- **Online Order Availability**: Whether the restaurant accepts online orders (Yes/No).
-- **Table Booking**: Whether table booking is available (Yes/No).
-- **Rating**: Customer rating for the restaurant.
-- **Votes**: Number of votes the restaurant has received.
-- **Approximate Cost for Two People**: Estimated cost of dining for two.
-- **Listed In (Type)**: Type of restaurant (e.g., Buffet, Café, Dining).
+The objective of this project is to analyze Zomato restaurant data to:
+- Identify customer preferences  
+- Understand restaurant performance  
+- Detect market trends  
+- Provide insights that can support business decisions  
 
-## Analytical Process
+## 📊 Data Overview
 
-### 1. **Data Cleaning and Preprocessing**
-   - **Data Import**: Loaded the dataset using Pandas.
-   - **Data Cleaning**: Handled missing values, converted data types (e.g., converting ratings from strings to floats), and corrected any inconsistencies in the data.
-   - **Feature Engineering**: Created new features where necessary to support the analysis, such as extracting relevant parts of composite data columns.
+The dataset contains information about various restaurants listed on Zomato. Key variables include:
 
-### 2. **Exploratory Data Analysis (EDA)**
-   - **Descriptive Statistics**: Summarized the data to understand its structure and distribution.
-   - **Correlation Analysis**: Analyzed relationships between variables to identify key factors influencing customer ratings and votes.
-   - **Visualization**: Used bar charts, line graphs, histograms, and heatmaps to visualize patterns in the data.
+- **Restaurant Name** — Name of the restaurant  
+- **Online Order Availability** — Yes/No  
+- **Table Booking** — Yes/No  
+- **Rating** — Customer rating  
+- **Votes** — Total number of customer votes  
+- **Approx. Cost for Two** — Estimated dining cost for two people  
+- **Listed In (Type)** — Restaurant category (Café, Buffet, Dining, etc.)  
 
-### 3. **Key Insights and Findings**
-   - **Popular Restaurant Types**: Dining restaurants received the highest customer engagement, indicated by the number of votes and ratings.
-   - **Customer Spending Behavior**: The most common spending range for two people was around 300 rupees, suggesting that mid-range pricing is attractive to customers.
-   - **Impact of Online Orders on Ratings**: Restaurants that offer online ordering tend to have higher ratings, indicating a strong preference among customers for this feature.
-   - **Rating Distribution**: Most restaurants fall within the 3.5 to 4.0 rating range, showing general customer satisfaction but also highlighting areas for potential improvement.
+## 🔍 Analytical Process
 
-### 4. **Conclusion and Recommendations**
-   - **Enhance Online Presence**: Restaurants should focus on improving their online ordering systems, as this is positively correlated with higher ratings.
-   - **Focus on Mid-Range Pricing**: Given the customer preference for restaurants with approximately 300 rupees for two people, restaurants in this pricing category should be strategically promoted.
-   - **Targeted Marketing for Dining**: Since dining restaurants are the most popular, targeted promotions and offers in this segment could drive further customer engagement.
+### **1. Data Cleaning & Preprocessing**
+- Imported dataset using **Pandas**
+- Handled missing values and corrected inconsistencies  
+- Converted ratings to numeric values  
+- Performed feature engineering for meaningful analysis  
+
+### **2. Exploratory Data Analysis (EDA)**
+- Generated descriptive statistics  
+- Examined correlations to understand relationships between variables  
+- Created visualizations including bar charts, histograms, heatmaps, and line plots to identify patterns  
+
+### **3. Key Insights & Findings**
+📌 **Popular Restaurant Types**  
+Dining restaurants received the highest customer engagement, reflected through ratings and vote counts.
+
+📌 **Customer Spending Behavior**  
+The most common cost range for two people is **around ₹300**, highlighting a preference for mid-range pricing.
+
+📌 **Impact of Online Ordering**  
+Restaurants that offer online orders tend to have **higher ratings**, showing strong customer preference.
+
+📌 **Rating Distribution**  
+Most restaurants have ratings between **3.5 to 4.0**, indicating overall customer satisfaction with room for improvement.
+
+## 🧠 Conclusion & Recommendations
+
+### ✔ Enhance Online Presence  
+Restaurants should improve and promote online ordering services since it strongly influences ratings.
+
+### ✔ Focus on Mid-Range Pricing  
+The ₹300 price range performs best; restaurants in this category should be highlighted and marketed.
+
+### ✔ Targeted Marketing for Dining Restaurants  
+Dining-type restaurants receive the most engagement and should receive targeted promotions and offers.
+
+## 📁 Project Structure (Suggested)
